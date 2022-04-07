@@ -29,19 +29,19 @@ button{
     background-color: white;
 }
 .round{
+    height: 50px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: white;
     border-radius: 50%;
     position: absolute;
     border: 0.5px solid darkgray;
-    top: -20px;
-    left: calc(43%);
+    top: -30px;
+    left: calc(250px / 2 - 25px);
 }
 
 .fa-solid{
-    height: 40px;
-    width: 40px;
+    font-size: 30px;
 }
