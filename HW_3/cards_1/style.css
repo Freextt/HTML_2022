@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 100px;
 }
 .wrapper{
@@ -28,6 +29,9 @@ button{
     background-color: white;
 }
 .round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: white;
     border-radius: 50%;
