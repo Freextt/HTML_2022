@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 400px;
+}
+.w250{
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    border:0.5px solid black;
+    position: relative;
+}
+.w250>h5{
+    font-size: 17px;
+}
+.w250>p{
+    color: lightgrey;
+}
+button{
+    height: 50px;
+    width: 125px;
+    background-color: white;
+}
+.round{
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    border: 0.5px solid darkgray;
+    top: -20px;
+    left: calc(43%);
+}
+
+.fa-solid{
+    height: 40px;
+    width: 40px;
+}

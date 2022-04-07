@@ -1,0 +1,147 @@
+.wrapper{
+    background-color: lightblue;
+    height: 800px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /*background-color: red;*/
+    height: 600px;
+    width: 900px;
+}
+.first-block{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    height: 200px;
+    width: 100%;
+}
+.second-block{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    height: 200px;
+    width: 100%;
+}
+.third-block{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    height: 200px;
+    width: 100%;
+}
+.web-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: calc(48%);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.web-design>div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+}
+.web-development{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: calc(48%);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.web-development>div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+}
+.conversation-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: calc(48%);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.conversation-services>div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+}
+.wordpress-development{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: calc(48%);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.wordpress-development>div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: calc(48%);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.logo>div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: calc(48%);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.social>div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+}
+.fa-solid,.fa-brands{
+    font-size: 50px;
+    padding-left: 20px;
+    color:grey;
+}
+h2{
+    color: darkgoldenrod;
+}
+p{
+    color: grey;
+}
